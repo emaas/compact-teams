@@ -1,0 +1,14 @@
+{
+  "name": "Compact Teams",
+  "version": "1.0",
+  "description": "Let's render a more compact version of Microsoft teams",
+  "content_scripts": [
+    {
+      "matches": ["http://teams.microsoft.com/*", "https://teams.microsoft.com/*"],
+      "css": ["compact_teams.css"],
+      "all_frames": true
+    }
+  ],
+
+  "manifest_version": 2
+}

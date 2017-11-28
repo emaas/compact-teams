@@ -1,0 +1,43 @@
+thread .ts-message {
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.1rem !important;
+}
+
+thread .ts-message .media-left {
+    display: none !important;
+}
+
+.ts-message-thread-body .message-body {
+    display: flex;
+     width: -webkit-fill-available !important;
+    padding: 0.4rem 0 .2rem !important;
+}
+
+thread .ts-message .conversation-common {
+       width: -webkit-fill-available !important;
+}
+
+.reply-btn-wide .thread-action-reply-message {
+    width: -webkit-fill-available !important;
+}
+
+.ts-message-thread-body .message-body-top-row {
+    display: block !important;
+    max-height: 4em !important;
+}
+
+.ts-message-list-container {
+    max-width:100% !important;
+}
+
+virtual-repeat>.list-wrap>*.item-wrap {
+    max-width: 100% !important;
+}
+
+.ts-o365-connector-card {
+    margin-top: 0 !important;
+    padding: .1rem 1.6rem .1rem !important;
+}
+.ts-card-thread-body .message-body-container {
+    display: none !important;
+}
